@@ -3,8 +3,13 @@
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
       "version": "17",
-        "installMaven": true
+      "installMaven": true
     }
   },
-    "containerEnv": { "JAVA_HOME": "/usr/local/sdkman/candidates/java/17.0.5-ms" }
+  "containerEnv": {
+    "JAVA_HOME": "/usr/local/sdkman/candidates/java/17.0.5-ms"
+  },
+  "remoteEnv": {
+    "JAVA_HOME": "/usr/local/sdkman/candidates/java/17.0.5-ms"
+   }
 }
