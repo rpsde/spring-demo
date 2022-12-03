@@ -45,6 +45,9 @@ jobs:
     # Feature release number or project name, defaults to `19`
        release: 17
 
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
     # Initializes the CodeQL tools for scanning.
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v2
